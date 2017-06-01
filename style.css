@@ -1,0 +1,127 @@
+body {
+  background-image: url("http://astroannie.com/my_images/field-grass-turf.jpg");
+  background-size: cover;
+}
+#box {
+  padding: 40px;
+  background-color: #f2f2f2;
+  border-radius: 25px;
+  opacity: 0.5;
+  margin-top: 25px;
+  margin-left: 20%;
+  margin-right: 20%;
+}
+#buttons {
+  align-items: center;
+  display: flex;
+  width: 60%;
+  margin: 0 20%;
+}
+#tweet-quote {
+  width: 100px;
+  height: 100px;
+  margin-top: 125px;
+  background-color: #f2f2f2;
+  border-radius: 100px;
+  font-size: 50px;
+  border: 0px;
+  opacity: 0.5;
+  color: #254117;
+  justify-content: center;
+}
+#tweet-quote:hover {
+  width: 100px;
+  border: 0px;
+  height: 100px;
+  margin-top: 125px;
+  background-color: #254117;
+  opacity: 0.7;
+  cursor: pointer;
+}
+#share-quote {
+  width: 100px;
+  height: 100px;
+  margin-top: 125px;
+  background-color: #f2f2f2;
+  border-radius: 100px;
+  font-size: 50px;
+  border: 0px;
+  opacity: 0.5;
+  color: #254117;
+  justify-content: center;
+}
+#share-quote:hover {
+  width: 100px;
+  border: 0px;
+  height: 100px;
+  margin-top: 125px;
+  background-color: #254117;
+  opacity: 0.7;
+  cursor: pointer;
+}
+
+#get-new-quote {
+  width: 100px;
+  height: 100px;
+  margin-top: 125px;
+  background-color: #f2f2f2;
+  border-radius: 100px;
+  border: 0px;
+  opacity: 0.5;
+  color: #254117;
+  justify-content: center;
+}
+#get-new-quote:hover {
+  width: 100px;
+  border: 0px;
+  height: 100px;
+  margin-top: 125px;
+  background-color: #254117;
+  opacity: 0.7;
+  cursor: pointer;
+}
+
+#display {
+    
+}
+.random {
+  text-align: center;
+  color: #000000;
+}
+.tweet {
+  text-align: center;
+  color: #000000;
+}
+
+#quote-icon-left{
+  color: #254117;
+  padding-top: 30px;
+  padding-left: 20px;
+  padding-right: 5px;
+}
+#quote {
+  text-align: center;
+  font-size: 30px;
+}
+#quote-icon-right{
+  color: #254117;
+  padding-left: 5px;
+}
+#author {
+  text-align: center;
+  font-size: 30px;
+  color: #254117;
+}
+#creator {
+  width: 300px;
+  height: 50px;
+  font-size: 20px;
+  background-color: #f2f2f2;
+  border-radius: 100px;
+  opacity: 0.5;
+  margin-top: 25px;
+  color: #254117;
+  padding: 10px;
+  margin-bottom: 125px;
+}
+  
