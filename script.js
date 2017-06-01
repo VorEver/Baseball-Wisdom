@@ -22,7 +22,7 @@ function displayRandomQuote(quoteList) {
 $(document).ready(function(){
   $("#get-new-quote").on("click", getQuoteList);
   $("#tweet-quote").on("click",function(){
-    window.open("https://twitter.com/share?text="+$("#quote").text()+" - "+$("#author").text());
+    window.open("https://twitter.com/share?text="+$("#quote").text()+" - "+$("#author").text()+ "\n\n");
   });
   
 });
