@@ -22,7 +22,11 @@ function displayRandomQuote(quoteList) {
 $(document).ready(function(){
   $("#get-new-quote").on("click", getQuoteList);
   $("#tweet-quote").on("click",function(){
-    window.open("https://twitter.com/share?text="+$("#quote").text()+" - "+$("#author").text()+ "\n\n");
+		var tweetStuff = $("#quote").text()+" - " + $("#author").text()+ "\n";
+		if (tweetStuff.length > 140) {
+				tweetStuff = "It ain't over till it's over. - Yogi Berra\n";
+		}
+  	window.open("https://twitter.com/share?text="+tweetStuff);
   });
   
 });
